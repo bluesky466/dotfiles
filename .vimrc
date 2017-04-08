@@ -43,6 +43,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'rdnetto/YCM-Generator'
+Plugin 'jiangmiao/auto-pairs'
 
 " cpp
 Plugin 'Chiel92/vim-autoformat'
@@ -54,8 +55,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'plasticboy/vim-markdown'
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
