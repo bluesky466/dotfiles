@@ -2,9 +2,6 @@ syntax on
 
 let mapleader='\'
 
-"deal with NERDCommenter:filetype plugins should be enabled.
-let g:did_load_ftplugin = 1
-
 set tabstop=4
 set wildmenu
 set wildmode=full
