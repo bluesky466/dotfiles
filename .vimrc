@@ -6,6 +6,7 @@ set wildmenu
 set wildmode=full
 set hlsearch
 set fillchars=vert:\ 
+set backspace=2
 
 inoremap jk <Esc>
 nnoremap <space> :
