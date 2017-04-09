@@ -19,6 +19,9 @@ noremap L $
 
 filetype plugin on
 
+set colorcolumn=81
+highlight ColorColumn term=reverse cterm=reverse gui=reverse
+
 set nocompatible
 filetype off
 
