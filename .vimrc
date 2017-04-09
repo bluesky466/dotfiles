@@ -1,10 +1,10 @@
 syntax on
-
 let mapleader='\'
 
 set tabstop=4
 set wildmenu
 set wildmode=full
+set hlsearch
 set fillchars=vert:\ 
 
 inoremap jk <Esc>
