@@ -1,14 +1,12 @@
 syntax on
-
 let mapleader='\'
-
-"deal with NERDCommenter:filetype plugins should be enabled.
-let g:did_load_ftplugin = 1
 
 set tabstop=4
 set wildmenu
 set wildmode=full
+set hlsearch
 set fillchars=vert:\ 
+set backspace=2
 
 inoremap jk <Esc>
 nnoremap <space> :
@@ -21,6 +19,9 @@ noremap H ^
 noremap L $
 
 filetype plugin on
+
+set colorcolumn=81
+highlight ColorColumn term=reverse cterm=reverse gui=reverse
 
 set nocompatible
 filetype off
@@ -43,6 +44,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'rdnetto/YCM-Generator'
+Plugin 'jiangmiao/auto-pairs'
 
 " cpp
 Plugin 'Chiel92/vim-autoformat'
@@ -54,8 +56,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'jiangmiao/auto-pairs'
 Plugin 'plasticboy/vim-markdown'
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
