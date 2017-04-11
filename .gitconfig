@@ -1,0 +1,10 @@
+[user]
+	name = linjw
+	email = bluesky466@qq.com
+[core]
+	editor = vim
+[alias]
+	st = status
+	cm = commit
+	co = checkout
+	br = branch
