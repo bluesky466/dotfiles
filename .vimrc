@@ -17,6 +17,7 @@ nnoremap gl gu
 nnoremap <F2> :set number! number?<CR>
 nnoremap <F3> :NERDTreeToggle<CR>
 nnoremap <F4> :TagbarToggle<CR>
+nnoremap <F5> :set colorcolumn=0<CR>
 noremap H ^
 noremap L $
 
